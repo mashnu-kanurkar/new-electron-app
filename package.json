@@ -1,0 +1,16 @@
+{
+  "name": "new-electron-app",
+  "productName": "new-electron-app",
+  "description": "My New Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "mashnu",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "27.1.2"
+  }
+}
