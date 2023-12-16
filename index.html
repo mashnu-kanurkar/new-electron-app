@@ -47,13 +47,8 @@
       }
 
       eventPushPerm.onclick = function(){
-        console.log("push permisssion")
-        clevertap.notifications.push({
-          "titleText":"Title",
-          "bodyText":"Body",
-          "okButtonText":"Ok",
-          "rejectButtonText":"No",
-          "okButtonColor":"#f23046"});
+        var ctid = clevertap.getCleverTapId()
+        //use this ctId in the "upload device token api"
       }
 
 
